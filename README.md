@@ -1,7 +1,7 @@
 # Hive Frontend Engineer Challenge
 
 ## Requirements
-- [ ] A user should be able to open and close the dropdown menu.
+- [x] A user should be able to open and close the dropdown menu.
 - [x] The component must support a single selected option or multiple selected options. Please demonstrate both use cases separately.
 - [x] A user should be able to select and deselect all options at once.
 - [x] The selected option or options must be visible when the dropdown is closed.
