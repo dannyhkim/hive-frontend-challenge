@@ -5,9 +5,6 @@
 - [x] The component must support a single selected option or multiple selected options. Please demonstrate both use cases separately.
 - [x] A user should be able to select and deselect all options at once.
 - [x] The selected option or options must be visible when the dropdown is closed.
-- [ ] Test
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
 
 ## Component API
 ```ts
