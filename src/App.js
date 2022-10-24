@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Dropdown } from "./components/Dropdown";
+import "./App.css";
 
 function App() {
+  const options = [
+    { value: "Oliver Hansen", label: "Oliver Hansen" },
+    { value: "Van Henry", label: "Van Henry" },
+    { value: "April Tucker", label: "April Tucker" },
+    { value: "Ralph Hubbard", label: "Ralph Hubbard" },
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Dropdown placeholder="Single select..." options={options} />
+      <Dropdown isMultiselect placeholder="Multi select..." options={options} />
     </div>
   );
 }
